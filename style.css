@@ -1,0 +1,158 @@
+body {
+    background-color: #ffffff;
+    font-family: "fira sans";
+    height: 100%;
+    text-align: center;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+/* navigation  */
+
+.navbar {
+    font-size: 15px;
+    border-bottom: 2px solid rgb(250, 190, 37);
+}
+
+.navbar a:hover {
+    background-color: rgb(250, 190, 37);
+}
+
+.navbar-brand {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+
+.introRow {
+    height: 400px;
+    border-bottom: 2px solid rgb(250, 190, 37);
+}
+
+#intro {
+    text-align: center;
+}
+
+.introText {
+    justify-content: center;
+    align-items: center;
+}
+
+.introText a {
+    color: black;
+}
+
+.introText a:hover {
+    background-color: rgb(250, 190, 37);
+}
+
+.introPicture {
+    justify-content: center;
+    align-items: center;
+}
+
+.name {
+    font-size: 50px;
+    color: rgb(250, 190, 37);
+    font-weight: bold;
+}
+
+.title {
+    font-size: 35px; 
+    font-weight: bold;
+}
+
+.indexMain {
+    height: 500px;
+    border-bottom: 2px solid rgb(250, 190, 37);
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.btn {
+    background-color: teal;
+}
+
+/* ABOUTPAGE */
+
+.about {
+    height: 700px;
+}
+
+.finn {
+    float: inherit;    
+}
+
+.hello {
+    font-size: 25px;
+}
+
+/* PROJECTS PAGE  */
+
+.projPage {
+    border-bottom: 2px solid rgb(250, 190, 37);
+}
+
+.projPage a {
+    text-decoration: none;
+    color: black;
+}
+
+.projPage a:hover {
+    background-color: rgb(250, 190, 37);
+}
+
+/* CONTACTS PAGE */
+
+.contactsMain {
+    height: 500px;
+    border-bottom: 2px solid rgb(250, 190, 37);
+    margin-bottom: 20px;
+
+}
+
+.contactIcons {
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#contactLinks a {
+    color: teal;
+    text-decoration: none;
+}
+
+#contactLinks a:hover {
+    background-color: rgb(250, 190, 37);
+    text-decoration: none;
+}
+
+
+
+/* contact icons  */
+
+.far {
+    color: rgb(252, 180, 0);
+    padding-right: 8px;
+    font-size: 25px;
+}
+.fas {
+    color: rgb(252, 180, 0);
+    padding-right: 8px;
+    font-size: 25px;
+
+}
+.fab {
+    color: rgb(252, 180, 0);
+    padding-right: 8px;
+    font-size: 25px;
+}
